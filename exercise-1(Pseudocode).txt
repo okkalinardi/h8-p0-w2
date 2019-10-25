@@ -1,0 +1,54 @@
+// Pseudocode Challenge
+
+// 1. Newton Second Law
+// Answer:
+//GET M with 600
+//GET A with 2
+//GET F
+// 
+//CALCULATE M times A
+//SET F with calculation result
+//
+//PRINT F
+
+
+//2. Tahun Kabisat
+// Answer:
+//GET year
+//GET A 
+//GET B
+//GET C
+//GET biasa with "Bukan Tahun Kabisat"
+//GET kabisat with "Tahun Kabisat"
+//
+//CALCULATE year MOD 4
+// SET A with calculation result
+//  IF A EQUALS to 0
+//      THEN CALCULATE A mod 100
+//  SET B with calculation result
+//      IF B EQUALS to 0
+//          THEN CALCULATE B mod 100
+//      SET C with calculation result
+//          IF C EQUALS to 0
+//              THEN DISPLAY kabisat
+//          ELSE
+//              DISPLAY biasa
+
+
+//3. Laundry Day
+// Answer:
+//STORE "Baju" with 20
+//WHILE "Baju" LESS THAN 20
+//ADD "Baju" by 1
+//
+//PRINT "Nyalakan mesin cuci"
+
+
+//4. Periksa Kuku
+// Aswer:
+//GET kuku with "PANJANG" or "PENDEK"
+//IF kuku EQUALS to "PENDEK"
+// THEN PRINT "Puji siswa/siswi"
+//ELSE
+// THEN PRINT "Hukum siswa/siswi"
+//END IF
