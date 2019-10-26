@@ -19,17 +19,17 @@ var ast = '*';
 for(var rows2 = 5; rows2 > 0; rows2--) {
   row2 += rows2;
   for(var rows2 = 5; rows2 > 0; rows2--){
-  console.log(ast.repeat(row1));
+  console.log(ast.repeat(row2));
   }
 }
 
 
 //3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
-var row1 = 0;
+var row3 = 0;
 var ast = '*';
-for(var rows1 = 5; rows1 > 0; rows1--) {
-  for(var rows1 = 5; rows1 > 0; rows1--){
-  row1 ++;
-  console.log(ast.repeat(row1));
+for(var rows3 = 5; rows3 > 0; rows3--) {
+  for(var rows3 = 5; rows3 > 0; rows3--){
+  row3 ++;
+  console.log(ast.repeat(row3));
   }
 }
