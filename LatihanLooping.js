@@ -68,8 +68,8 @@ while(angka<=100){
 //part 4
 var angka = 1
 while(angka<=100){
-        if(angka % 3 ==0){
-            console.log(angka+' 3 Kelipatan 3');
+        if(angka % 10 ==0){
+            console.log(angka+' 10 Kelipatan 10');
         }else{
             console.log(angka); 
         }
