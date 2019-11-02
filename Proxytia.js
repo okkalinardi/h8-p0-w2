@@ -12,6 +12,6 @@ if (nama && peran==='Ksatria'){
     console.log('Halo '+peran+' '+nama+', ciptakan keajaiban yang membantu kemenanganmu!');
 }else if(!nama){
     console.log('Nama harus diisi!');
-}else if(nama && !peran || peran !== 'Ksatria' || 'Penyihir' || 'Tabib'){
+}else if(nama && !peran || peran !== 'Ksatria' || peran !== 'Penyihir' || peran !== 'Tabib'){
     console.log('Halo '+nama+', Pilih peranmu untuk memulai game!');
 }
